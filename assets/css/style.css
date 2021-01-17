@@ -22,14 +22,27 @@ a:hover {
     color: #68b0ab;
 }
 
+.buy-poetry i {
+    color: #800000;
+}
 
+.bookshop-links li {
+    color: #f5f4f4;
+}
 
-/*--check later--*/
-a:active {
-    color: #cae4db;
+.bookshop-links a:hover {
+    color: #800000;
+}
+.social-icon i {
+    color: #f5f4f4;
 }
 
 /*----General Styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     visibility: hidden;
     font-size: 3px;
@@ -48,17 +61,17 @@ h5 {
 
 .header-logo {
     width: auto;
+    margin: 0;
 }
 
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 20%;
 }
 
 .nav-position {
     padding: 75px 100px;
+    margin: 0;
 }
 
 .nav-button {
@@ -104,14 +117,11 @@ a {
 
 /*----Footer*/
 
-.social-icon i {
-    color: #f5f4f4;
-}
 
 footer {
     height: 140px;
-    margin-top: 0;
-    position: absolute;
+    margin: 0;
+    position: relative;
     bottom: 0;
 }
 
@@ -123,16 +133,17 @@ footer {
     padding-left: 25%;
 }
 
-.buy-poetry i {
-    color: #800000;
-}
 
-.bookshop-links li {
-    color: #f5f4f4;
-}
 
-.bookshop-links a:hover {
-    color: #800000;
+/*----Homepage */
+.home-banner {
+    background-image: url(/assets/images/galway-banner.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    margin: 0;
 }
 
 
