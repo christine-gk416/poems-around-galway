@@ -55,23 +55,23 @@ h5 {
 /*----Header */
 
 .row {
-    margin: 0;
+    margin: 0px;
 }
 
-.header-logo {
-    width: auto;
-    margin: 0;
+.sticky-header {
+    position: sticky;
 }
 
-.center {
-    display: block;
-    width: 20%;
+.nav-position ul {
+padding: 75px 100px;
+    margin: 0px; 
 }
 
-.nav-position {
-    padding: 75px 100px;
-    margin: 0;
+.logo-max {
+    max-width: 220px;
+    margin: 0px;
 }
+
 
 .nav-button {
     font-family: Arial, sans-serif;
@@ -94,7 +94,7 @@ li {
 }
 
 a {
-  display: block;
+  
   padding: 10px;
   color: black;
 }
@@ -106,8 +106,6 @@ a {
 .icon {
     font-size: 30px;
     color: #68b0ab;
-    margin-right: 25%;
-    margin-top: 5%;
 }
 
 .topnav .icon {
@@ -119,9 +117,9 @@ a {
 
 footer {
     height: 170px;
-    margin: 0;
+    margin: 0px;
     position: relative;
-    bottom: 0;
+    padding-bottom: 0px;
 }
 
 #footer-details {
@@ -130,11 +128,14 @@ footer {
 
 .social-background {
     background-color: #68b0ab;
-    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .buy-poetry {
     padding-left: 25%;
+    padding-bottom: 0%;
 }
 
 .subscribe-newsletter {
@@ -186,7 +187,7 @@ footer {
 @media screen and (max-width: 1150px) {
   .topnav.responsive {position: absolute;}
   .topnav.responsive a.icon {
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
   }
@@ -195,4 +196,6 @@ footer {
     display: block;
     text-align: left;
   }
+
+  
 }
