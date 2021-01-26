@@ -47,9 +47,16 @@ h1 {
     font-size: 3px;
 }
 
+h2 {
+    font-family: Trocchi, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    color: #f5f4f4;
+}
+
 h5 {
     font-family: Arial, sans-serif;
-    color: #f5f4f4;;
+    color: #f5f4f4;
 }
 
 /*----Header */
@@ -177,6 +184,34 @@ footer {
     margin: 0;
 }
 
+.quote-background {
+    background-color: rgb(161, 84, 83);
+}
+
+.quote-box-size {
+    padding: 5% 1% 5% 2%;
+}
+
+.searchbar-box {
+    padding: 8% 0% 0% 15%;
+    
+}
+
+.searchbar-box input[type=text] {
+    padding: 10px;
+  font-size: 15px;
+  border: 1px solid grey;
+  width: 70%;
+  background: #f1f1f1;
+}
+
+.search-icon {
+    font-size: 20px;
+    color: #f5f4f4;
+}
+.search-button {
+    background-color: #004A80;
+}
 
 
 /*----Media Queries */
@@ -216,10 +251,16 @@ footer {
 }
 
 @media screen and (max-width: 1150px) {
-    .mobile-banner {
-        max-height: 100%;
+.mobile-banner {
+        height: 100%;
         width: 100%;
     }
+.quote-box-size {
+    padding: 0%;
+}    
+.searchbar-box {
+    padding: 0%;
+}
 }
 
 @media screen and (max-width: 799px) {
