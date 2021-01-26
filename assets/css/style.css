@@ -54,6 +54,13 @@ h2 {
     color: #f5f4f4;
 }
 
+h3 {
+    font-family: Open sans, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #004A80; 
+}
+
 h5 {
     font-family: Arial, sans-serif;
     color: #f5f4f4;
@@ -186,14 +193,17 @@ footer {
 
 .quote-background {
     background-color: rgb(161, 84, 83);
+    position: relative;
 }
 
 .quote-box-size {
     padding: 5% 1% 5% 2%;
+    position: relative;
 }
 
 .searchbar-box {
     padding: 8% 0% 0% 15%;
+    
     
 }
 
@@ -211,6 +221,29 @@ footer {
 }
 .search-button {
     background-color: #004A80;
+    padding: 7px;
+}
+.caption-test {
+    display: inline-block;
+}
+
+.gallery-size {
+    height: 500px;
+    width: 500px;
+}
+
+
+.image-position {
+    padding: 40px 40px 40px 40px;
+    width: 100%;
+}
+
+.gallery-caption {
+    text-align: center;
+}
+
+.gallery-background {
+    background-color: #f5f4f4;
 }
 
 
