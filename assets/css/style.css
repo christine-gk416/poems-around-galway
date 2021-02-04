@@ -95,7 +95,7 @@ h5 {
     font-size: 20px;
     text-align: center;
     padding: 2px 30px;
-    background-color: #800000;
+    background-color: #D6CCC2;
     border-radius: 25px;
 }
 
@@ -128,10 +128,6 @@ a {
 .icon {
     font-size: 30px;
     color: #800000;
-}
-
-.topnav .icon {
-  display: none;
 }
 
 /*----Footer*/
@@ -169,8 +165,7 @@ footer {
     color: #f5f4f4;
     font-family: Arial, sans-serif;
     font-size: 18px;
-    margin-top: 5%;
-    margin-left: 5%;
+    padding-top: 2%;
 }
 
 .form-border {
@@ -237,17 +232,7 @@ footer {
 /*----Media Queries */
 
 @media screen and (max-width: 1150px) {
-  .topnav li {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .topnav.responsive {position: absolute;}
-  .topnav.responsive a.icon {
-    position: relative;
-    right: 0;
-    top: 0;
-  }
+  
   .topnav.responsive a {
     float: none;
     display: block;
