@@ -33,7 +33,7 @@ a:hover {
 }
 
 .gallery-background {
-    background-color: #D6CCC2;
+    background-color: #E5E8F0;
 }
 
 
@@ -52,20 +52,21 @@ h2 {
     font-family: Trocchi, sans-serif;
     font-size: 30px;
     font-style: italic;
-    color: #D6CCC2;
+    color: #E5E8F0;
 }
 
 h3 {
     font-family: Open sans, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    color: #293F14; 
+    color: #91C7B1; 
 }
 
 h4 {
     font-family: Open sans, sans-serif;
     font-weight: 400;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 h5 {
@@ -95,7 +96,7 @@ h5 {
     font-size: 20px;
     text-align: center;
     padding: 2px 30px;
-    background-color: #D6CCC2;
+    background-color: #E5E8F0;
     border-radius: 25px;
 }
 
@@ -185,11 +186,10 @@ footer {
 /*----Homepage */
 .home-banner {
     background-image: url(/assets/images/galway-banner.jpg);
-    background-position: bottom center;
-    background-repeat: no-repeat;
+    background-position: center bottom;
     background-size: cover;
-    position: relative;
-    height: 500px;
+    height: 760px;
+    width: 100%;
     margin: 0;
 }
 
@@ -229,6 +229,31 @@ footer {
     padding: 7% 10% 7% 10%;
 }
 
+/*----Poem Page */
+
+.galway-po {
+    padding: 10% 0% 10% 10%;
+}
+
+.poetry-background {
+    background-color: #E5E8F0;
+}
+
+h3.poetry-title  {
+    color: #800000;
+    font-weight: 700;
+}
+
+.image-position-po {
+    padding: 25% 10% 25% 2%;
+    width: 100%;
+}
+
+.image-position-bio {
+    padding: 3% 5% 0% 25%;
+    width: 50%;
+}
+
 /*----Media Queries */
 
 @media screen and (max-width: 1023px) {
@@ -251,7 +276,11 @@ footer {
 }
 
 .mobile-banner {
-    max-height: 50%;
+    background-image: url(/assets/images/galway-banner2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
 }
 
 .quote-box-size {
