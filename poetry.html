@@ -20,7 +20,7 @@
 
 <body>
 
-    <header class="sticky-header">
+    <header>
 
         <!--Header-->
         <div class="container-fluid"> 
@@ -154,7 +154,7 @@
         </div>
         
     </section>
-     <hr class="poetry-background">
+     <hr>
     <section>
         
         <div class="row poetry-background ">
@@ -207,7 +207,7 @@
                 </h4>
                 
             </div>
-          <hr>     
+           
         </div>
         
     </section>
@@ -334,24 +334,20 @@
 
             <div class="row no-gutter"> 
             
-                <div class="d-none d-xl-block">
-                    <h5 class="subscribe-newsletter">
+                <div class="col-xl-4 col-md-12">
+                    <h5 class="subscribe-newsletter newsletter-mobile">
                         <i class="far fa-newspaper newsletter-icon"></i>
                         Subscribe to our Newsletter!</h5>
-                    <form>
-                        <label for="fname"></label>
-                        <input type="text" id="fname" name="fname" value="First Name" class="form-border">
-                        <label for="lname"></label>
-                        <input type="text" id="lname" name="lname" value="Last Name" class="form-border">
-                        <br>
-                        <label for="email"></label>
-                        <input type="email" id="email" name="email" value="Email" class="form-border" required>
+                    <form class="subscribe-newsletter footer-form-mobile" action="">
+    
+                        <label for="email"><h5>Email:</h5></label>
+                        <input type="email" id="email" name="email" class="form-border" required>
                         <input type="submit" value="Submit" class="newsletter-button btn btn-outline-light">
-                        </form>
+                    </form>
             
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-xl-4 col-md-12">
                
                     <h5 class="buy-poetry">
                         <i class="fas fa-book-reader"></i>
@@ -379,7 +375,7 @@
                     </ul>   
                 </div>
 
-                <div class="col-lg-4 col-md-6 social-background footer-padding">
+                <div class="col-xl-4 col-md-12 social-background social-footer-mobile">
                     <ul>
                         
                         <li class="social-icon">
@@ -415,6 +411,6 @@
                 </div>
             </div> 
         </div>   
-    </footer>   
+    </footer>  
 </body>
 </html>
