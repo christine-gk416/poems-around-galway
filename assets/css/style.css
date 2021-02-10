@@ -58,6 +58,11 @@ body {
     padding: 0;
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E8F0;
+}
+
 h1 {
     visibility: hidden;
     font-size: 3px;
@@ -263,8 +268,20 @@ h3.poetry-title  {
 
 /*----Contact Page */
 h3.form-font {
-    text-transform: capitalize;
+    text-transform: none;
     font-size: 16px;
+}
+
+.contact-form {
+    padding: 5% 0% 5% 10%;
+}
+
+.contact-us {
+    padding: 8% 10% 0% 10%;
+}
+
+#email-label {
+    padding-left: 6%;
 }
 
 /*----Media Queries */
@@ -375,6 +392,10 @@ h4 {
     font-size: 16px;
 }
 
+p {
+    font-size: 16px;
+}
+
 .mobile-gallery {
     max-height: 200px;
     max-width: 90%;
@@ -393,6 +414,16 @@ h4 {
 
 .galway-po {
     padding: 5% 0% 5% 5%;
+}
+
+.contact-form {
+    flex-direction: column-reverse;
+    padding-right: 10%;
+}
+
+.contact-us {
+    padding-bottom: 10%;
+    
 }
 }
 
@@ -492,6 +523,14 @@ h5 {
     font-size: 16px;
 }
 
+p {
+    font-size: 15px;
+}
+
+h2.mobile-heading {
+    font-size: 20px;
+}
+
 .newsletter-button {
     font-size: 16px;
 }
@@ -527,6 +566,19 @@ h5 {
 .mobile-image-po {
     padding-left: 10%;
     padding-top: 5%;
+}
+
+.contact-us {
+    padding-bottom: 15%;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.mobile-label {
+    padding-top: 6%;
 }
 
 
