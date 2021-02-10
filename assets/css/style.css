@@ -94,6 +94,10 @@ h5 {
     color: #02033C;
 }
 
+.quote-position {
+    padding-left: 30%;
+}
+
 /*----Header */
 
 .row {
@@ -264,6 +268,10 @@ h3.poetry-title  {
 
 .bio {
     padding-right: 10%;
+}
+
+.bio-top {
+    padding-top: 8%;
 }
 
 /*----Contact Page */
