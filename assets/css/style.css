@@ -203,8 +203,8 @@ footer {
 .home-banner {
     background-image: url(/assets/images/galway-banner.jpg);
     background-position: center bottom;
-    background-size: cover;
-    height: 760px;
+    background-size: contain;
+    height: 700px;
     width: 100%;
     margin: 0;
 }
@@ -236,6 +236,10 @@ footer {
 
 .gallery-caption {
     text-align: center;
+}
+
+.bottom-padding {
+    padding-bottom: 10%;
 }
 
 
@@ -295,6 +299,14 @@ h3.form-font {
 /*----Media Queries */
 
 @media screen and (max-width: 1024px) {
+
+.mobile-bottom-padding {
+    padding-bottom: 0%;
+} 
+
+.quote-position {
+    padding-left: 5%;
+}
 
 .newsletter-button {
     font-size: 16px;
