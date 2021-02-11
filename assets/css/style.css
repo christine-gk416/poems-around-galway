@@ -246,9 +246,17 @@ footer {
 /*----About Page */
 
 .about-size {
-    padding: 7% 10% 7% 10%;
+    padding: 7% 15% 5% 15%;
 }
 
+.faq-btn {
+    background-color: #02033C;
+}
+
+.faq-font {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #91C7B1;
+}
 /*----Poem Page */
 
 .galway-po {
