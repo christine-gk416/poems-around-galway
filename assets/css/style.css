@@ -46,7 +46,7 @@ li a i:hover {
 }
 
 .poetry-background {
-    background-color: #E5E8F0;
+    background-color: #DBF3FD63
 }
 
 
@@ -264,7 +264,7 @@ footer {
 /*----Poem Page */
 
 .galway-po {
-    padding: 10% 0% 5% 10%;
+    padding: 2% 0% 5% 15%;
 }
 
 h3.poetry-title  {
@@ -279,22 +279,22 @@ h3.bio-title {
 }
 
 .image-position-po {
-    padding: 25% 10% 15% 2%;
+    padding: 30% 10% 15% 2%;
+    width: 100%;
+}
+
+.image-position-po2 {
+    padding: 10% 10% 15% 2%;
     width: 100%;
 }
 
 .image-position-bio {
-    padding: 2% 5% 10% 20%;
+    padding: 2% 5% 10% 25%;
     width: 75%;
 }
 
 .bio {
     padding-right: 10%;
-    padding-bottom: 10%;
-}
-
-.bio-top {
-    padding-top: 8%;
 }
 
 /*----Contact Page */
@@ -317,6 +317,24 @@ h3.form-font {
 
 .input-padding {
     padding-right: 19%;
+}
+
+/*-----Shop Page */
+
+.shop-image {
+    max-height: 75%;
+    max-width: 75%;
+    padding-top: 15%;
+    padding-left: 25%;
+}
+
+.shop-text {
+    padding-top: 5%;
+    padding-left: 25%;
+}
+
+.shop-button {
+    padding: 2% 0% 15% 25%;
 }
 
 /*----Media Queries */
