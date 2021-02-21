@@ -28,19 +28,17 @@
                 <!--Logo-->
                 <div class="col-6 col-md-6">
                     
-                    <h1>Poems Around Galway</h1>  
+                   <h1>Poems Around Galway</h1>   
                     <a href="index.html" class="logo mobile-logo-pos">
                         <img src="/assets/images/milestone project logo 1.png" alt="Poems Around Galway logo" class="mobile-logo">
                     </a> 
                       
                 </div>
-
-                
   
                 <div class="col-md-8 col-lg-6 col-xl-6 mobile-nav">   
                     <nav class="navbar navbar-expand-lg nav-position">
  
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-label="Opens mobile navigation">
                             <span class="navbar-toggler-icon"></span>
 
                             <i class="fas fa-bars icon"></i>
@@ -53,18 +51,18 @@
                                 Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="/about.html">
+                                    <a class="nav-link" href="/about-this-project.html">
                                     <i class="nav-icon fas fa-info-circle"></i>
                                     About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">
+                                    <a class="nav-link" href="contact-us.html">
                                     <i class="nav-icon fas fa-laptop"></i>
                                     Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <button type="button" class="btn btn-outline-light nav-button">
-                                        <a class="nav-link" href="/shop.html">Shop</a>
+                                    <button type="button" class="btn btn-outline-light nav-button" aria-label="Online shop">
+                                        <a class="nav-link" href="/online-shop.html">Shop</a>
                                     </button>
                                 </li>     
                             </ul>
@@ -86,47 +84,36 @@
     </section>
 
     <section>
-        <div class="row gallery-background contact-form">
+        <div class="row gallery-background">
             <div class="col-xl-6">
-                <form>
-                    <h2 class="mobile-heading">Tell us more!</h2>
+                <img class="shop-image" src="/assets/images/tshirt-1.jpg" alt="green t-shirt on a hanger">
+                <p class="shop-text">Poem Print T-shirt
                     <br>
-                    <label for="fname" class="mobile-label"><h3 class="form-font">First Name</h3></label>
-                    <input type="text" id="fname" name="firstname" class="input-padding">
-                    <br>
-                    <label for="fname" class="mobile-label"><h3 class="form-font">Last Name</h3></label>
-                    <input type="text" id="lname" name="lastname" class="input-padding">
-                    <br>
-                    <label for="email-label" class="mobile-label email-label"><h3 class="form-font">Email</h3></label>
-                    <input type="email" id="email-label" name="email" placeholder="example@email.com" class="input-padding">
-                    <br>
-                    <br>
-                    <label for="textarea" class="mobile-label"><h3 class="form-font">Send us your comments, ideas, or feedback</h3></label>
-                    <br>
-                    <textarea type="textarea" id="textarea" name="textarea" cols="45" rows="8"></textarea>
-                    <br>
-                    <br>
-                    <input type="submit" value="Submit" class="newsletter-button btn btn-outline-light">
-
-                </form>
-            </div> 
-
-            <div class="col-xl-6 contact-us">
-                <h2 class="mobile-heading">Contact us</h2>
-                <br>
-                <p>Please get in touch if you have any questions about this project or would like to get involved!
-                    <br>
-                    <br>
-                    Phone: +353 087 609 3111
-                    <br>
-                    <br>
-                    Email: kelleyc416@gmail.com
+                    €18
                 </p>
+                <div class="shop-button">
+                    <button type="button" class="btn btn-outline-light nav-button">
+                        <a class="nav-link" href="#">Purchase</a>
+                    </button>
+                </div>    
             </div>
-            
+
+            <div class="col-xl-6">
+                <img class="shop-image" src="/assets/images/mug-1.jpg" alt="white mug in front of books and pen">
+               <p class="shop-text">Poem Print Mug
+                   <br>
+                   €12
+               </p> 
+               <div class="shop-button">
+                    <button type="button" class="btn btn-outline-light nav-button">
+                        <a class="nav-link" href="#">Purchase</a>
+                    </button>
+                </div>    
+            </div>
         </div>
     </section>
-
+    
+    
     <!--Footer--> 
 
     <footer class="footer-background footer-padding push" id="footer-details">
@@ -139,9 +126,9 @@
                     <h5 class="subscribe-newsletter newsletter-mobile">
                         <i class="far fa-newspaper newsletter-icon"></i>
                         Subscribe to our Newsletter!</h5>
-                    <form class="subscribe-newsletter footer-form-mobile" action="">
-                        <input type="email" id="email" name="email" class="form-border" placeholder="example@email.com" required>
-                        <input type="submit" value="Submit" class="newsletter-button btn btn-outline-light">
+                    <form class="subscribe-newsletter footer-form-mobile" action="" aria-label="Sign up for our Newsletter">
+                        <input type="email" id="email" name="email" class="form-border" placeholder="example@email.com" aria-label="Add your email address" required>
+                        <input type="submit" value="Submit" class="newsletter-button btn btn-outline-light" aria-label="Submit newsletter sign up">
                     </form>
             
                 </div>
@@ -179,30 +166,30 @@
                         
                         <li class="social-icon">
                             <a href="facebook.com">
-                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-facebook-f" aria-label="Facebook"></i>
                             </a>
 
                         </li>
                         <li class="social-icon">
                             <a href="instagram.com">
-                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-instagram" aria-label="Instagram"></i>
                             </a>
                         </li>
                         <li class="social-icon">
                             <a href="http://twitter.com/">
-                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter" aria-label="Twitter"></i>
                             </a>
                         </li>
                         
                         <li class="social-icon">
                             <a href="mailto:kelleyc416@gmail.com" target="_blank">
-                            <i class="fas fa-envelope-square"></i>
+                            <i class="fas fa-envelope-square" aria-label="Contact email address"></i>
                             </a>
                         </li>
 
                         <li class="social-icon">
                             <a href="tel: 0876093111" target="blank">
-                            <i class="fas fa-phone-alt"></i>
+                            <i class="fas fa-phone-alt" aria-label="Contact phone number"></i>
                             </a>
                         </li>
                 
@@ -210,6 +197,6 @@
                 </div>
             </div> 
         </div>   
-    </footer>   
+    </footer>    
 </body>
 </html>

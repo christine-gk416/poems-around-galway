@@ -289,7 +289,7 @@ h3.bio-title {
 }
 
 .image-position-bio {
-    padding: 2% 5% 10% 25%;
+    padding: 2% 5% 20% 25%;
     width: 75%;
 }
 
@@ -317,6 +317,10 @@ h3.form-font {
 
 .input-padding {
     padding-right: 19%;
+}
+
+.contact-email {
+    color: #E5E8F0;
 }
 
 /*-----Shop Page */
@@ -592,7 +596,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -646,7 +650,7 @@ h2.mobile-heading {
 
 .mobile-image-po {
     padding-left: 10%;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .contact-us {
