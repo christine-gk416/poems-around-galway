@@ -29,44 +29,86 @@ I’ve included my user stories and I what I built to accompany each story below
 
 Aoife is a secondary school teacher. Aoife wants an interactive place where her students read and learn more about poetry in Galway city. She thinks the students will respond best to images with the poems, as well as author bios.
 
-The Poetry page addresses this set of features. I used bootstrap to 
-
 #### User Story 2:
 
 Charles is a poet. He wants a way to feel connected with the source material for the poems. He wants images of the places where the poems were written.
 
-#### Feature: 
+#### User Story 3: 
+
+Dominic loves to read poetry for fun, but his eyesight isn’t as good as when he was younger. Dominic wants a way to play audio of the poems so he can listen to them instead. 
+
+#### User Story 4:
+
+Amy is visiting Galway for the first time as a tourist. She wants to know where she can buy books of poetry, so she needs links to local book shops. 
+
+#### User Story 5:
+
+Sarah is interested in reading as a hobby and likes to keep track of different literary sites on poetry. She wants a feature where she can sign up to get newsletters for updates on the site. 
+
+## Wireframes
+
+I've included links to the sitemap and a wireframe for each page of the site. 
+
+[Sitemap](/workspace/milestone-project-1/wireframes/Wireframes-Sitemap.pdf)
+
+[Homepage](/workspace/milestone-project-1/wireframes/Wireframes-Homepage.pdf)
+
+[Poetry Page](/workspace/milestone-project-1/wireframes/Wireframes-Poetry.pdf)
+
+[About](/workspace/milestone-project-1/wireframes/Wireframes-About.pdf)
+
+[Contact](/workspace/milestone-project-1/wireframes/Wireframes-Contact.pdf)
+
+[Shop](/workspace/milestone-project-1/wireframes/Wireframes-Shop.pdf)
+
+## Design/Color-palette/Fonts
+
+The first colour I choose for the design of this site is marroon. This is the city colour for Galway. This is relected in the logo, icons throughout the site, and in the background colour for the quote banners on the Home and Poetry Pages. 
+
+
+The rest of the colour scheme includes shades of blue. There's dark blue on the Home, Contact, and Shop Page to make the images/forms stand out. 
+There's lighter block in the background of the Poetry and About Pages, so that the written content is easier to read against dark text. 
+I used a cooler/neutral blue in the header/footer of the site. 
+
+The main reasoning behind this blue theme is because it contrasts well with the red. Also, Galway is built on rivers, canals, and Galway Bay. The blue evokes a city surrounded by water. 
+
+My mentor suggested that I build my design palette on https://coolors.co/
+
+[View the full palette here](https://coolors.co/800000-252d41-8db2b9-dbf3fd-e5e8f0)
+
+The fonts I choose were chosen because they're easy to read. I mainly used Arial and Open Sans to make the site more accessible to users with dyslexia as suggested [in this article](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide)
+
+I also chose to use Trocchi in some headings because I was inspired by its use on https://poets.org/ 
+## Existing Features
+
+#### Feature- User story 2: 
 
 I created a gallery of images of iconic places in Galway. These images correspond with the poems. I actually asked my friend Charles, who is a poet from Galway what he would most like to see on the site. So I created this gallery navigation of the places that go with the poems (more or less) on the homepage. 
 
 I wanted to evoke dinnseanchas or lore of places in this project to show the connection between where a poem is set and the written word. Plus I think this navigation makes a more visually stunning homepage and works to explain the project.
 
-For example, the image for the poem Galway is of the canal, looking over Il Vicolo restaurant. 
+For example, the image for the poem Galway is of the canal, looking over Il Vicolo restaurant. [This image.](/workspace/milestone-project-1/assets/images/galway-weir.jpg)
 
-The image of the old Rahoon cemetery was taken by me. Though less iconic on a city-wide basis, this is an important place in James Joyce’s personal lore that’s featured in his more famous short story: “The Dead”. 
-‘On Nimmo’s Pier’ features the well-known red-sailed Galway hookers docked in the pier. I used this image because these boats are docked in the pier during the summer. So the boats are strongly connected to this area of the city. 
+The image of the old Rahoon cemetery was taken by me. Though less iconic on a city-wide basis, this is an important place in James Joyce’s personal lore that’s featured in his more famous short story: “The Dead”. [This image.](/workspace/milestone-project-1/assets/images/rahoon.JPG)
 
-For ‘Men with Tired Hair’ I couldn’t get a good image of Prospect Hill, since it is largely a commercial area of the city. I considered taking a picture of my doctor’s office that’s located in this area of the town. However, any picture I tried to take of the hill looked awkward and a bit less vibrant than some of areas of the city with more colourful shopfronts and pubs. So I used an image of Eyre Square and it’s flags of the 12 tribes. Eyre Square is located at the bottom of the hill, so sitting out on Prospect Hill, one would look out over this square. 
+‘On Nimmo’s Pier’ features the well-known red-sailed Galway hookers docked in the pier. I used this image because these boats are docked in the pier during the summer. So the boats are strongly connected to this area of the city. [This image.](/workspace/milestone-project-1/assets/images/galway-hookers.jpg)
+
+For ‘Men with Tired Hair’ I couldn’t get a good image of Prospect Hill, since it is largely a commercial area of the city. I considered taking a picture of my doctor’s office that’s located in this area of the town. 
+However, any picture I tried to take of the hill looked awkward and a bit less vibrant than some of areas of the city with more colourful shopfronts and pubs. So I used an image of Eyre Square and it’s flags of the 12 tribes. 
+Eyre Square is located at the bottom of the hill, so sitting out on Prospect Hill, one would look out over this square. [This image.](/workspace/milestone-project-1/assets/images/eyre-square.jpg)
 
 Finally, I added an overlay that appears when you hover over the images, so that a user knows to click on the image to go directly to the Poems page. 
 
-#### User Story 3: 
 
-Dominic loves to read poetry for fun, but his eyesight isn’t as good as when he was younger. Dominic wants a way to play audio of the poems so he can listen to them instead.
-
-#### Feature: 
+#### Feature- User story 3: 
 
 I added audio elements to the poem page, placing each element directly below each poem. 
 
 To get the audio files, I used an external microphone. My husband and I read the poems out loud and recorded our readings. 
 
-Then, I added the audio files to the audio elements. 
+Then, I added the audio files to the audio elements.
 
-#### User Story 4:
-
-Amy is visiting Galway for the first time as a tourist. She wants to know where she can buy books of poetry, so she needs links to local book shops.
-
-#### Feature: 
+#### Feature- User story 4: 
 
 I added footer links to three bookshops in Galway: Charlie Byrnes, Easons, and Kenny’s. The links can be used by anyone: local resident or tourist to buy books online/locate these bookshops in the city. 
 
@@ -74,32 +116,31 @@ There were a few reasons why I wanted to add a tourism element to this site. One
 
 Tourism is also a major industry. As this is a project built around a specific community, it makes sense to point traffic from tourists that visit this site looking to learn more about local literature to local businesses. 
 
-I later added a Shop page to the site directly so that we could sell our own merchandise to tourists visiting the city. 
-
-#### User Story 5:
-
-Sarah is interested in reading as a hobby and likes to keep track of different literary sites on poetry. She wants a feature where she can sign up to get newsletters for updates on the site. 
-
-#### Feature:
+#### Feature- User story 5:
 
 I added a newsletter sign up form to the footer of the site. As a broader goal, I would use this form to stay in touch with writers in the city to notify them of literary events happening in town. 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### Other Existing Features
 
-## Features
+General: 
+- Logo- gives the user an idea of what the site is about
+- Navigation links- allows the user to navigate the site
+- Mobile navigation icon- hides the navigation on mobile until you click the icon
+- Header button- draws attention to the link to the online shop
+- Social links- uses FontAwesome icons to allow the user to visit social media sites/contact us
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+Contact Page: 
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- Form- allows the user to get in touch with me regarding any more depth questions they have about the project or getting involved.
+- Text links to email/phone- allows users to contact me directly by clicking these links
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+About Page: 
 
-### Features Left to Implement
-- Another feature idea
+- Accordion FAQ dropdown- allows the user to click to learn the answers to frequently asked questions about the project
+
+### Features to implement in the future
+- Fully working shop/forms- when I have JavaScript experience, I'd like to make these features fully usable 
+- Search feature- this is a feature I'd like to implement with JavaScript
 
 ## Technologies Used
 
