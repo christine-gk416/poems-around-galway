@@ -47,6 +47,11 @@ Sarah is interested in reading as a hobby and likes to keep track of different l
 
 ## Wireframes
 
+Before I started on the wireframes, I brainstormed the logo design, business objectives, and customer needs on Miro. 
+I've included links to this brainstorm.
+
+[Miro branstorming](/workspace/milestone-project-1/wireframes/Milestone-1-Brainstorming.pdf)
+
 I've included links to the sitemap and a wireframe for each page of the site. 
 
 [Sitemap](/workspace/milestone-project-1/wireframes/Wireframes-Sitemap.pdf)
@@ -144,11 +149,44 @@ About Page:
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [JIRA](https://www.atlassian.com/software/jira)
+    - I built my original user stories and started the Strategy Plane on a **JIRA** board 
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [Trello](https://trello.com)
+    - I used a **Trello** scope/strategy board to visualise the development process/map out the Strategy and Scope Planes    
 
+- [Miro](https://miro.com/)
+    - I used Miro to map out my business objectives and consider my logo design
+
+- [Basalmiq](https://balsamiq.com/)
+    - My wireframes were all built on Balsalmiq
+
+- [Free Logo Design](https://www.freelogodesign.org/)   
+    - My logo was created on this tool
+
+- [HTML5](https://html.com/html5/)
+    - This project uses **HTML5** to build the 5 pages on the site
+
+- [CSS3](https://html.com/css/)
+    - I used **CSS** to style the HTML
+
+- [Bootstrap CSS](https://getbootstrap.com/docs/3.4/css/)
+    - I used **Bootstrap CSS** to style buttons on the site. I also used Bootstrap grids to create the structure of my pages and to allow the site to resize responsively on different devices 
+
+- [Bootstrap JavaScript](https://getbootstrap.com/docs/3.4/javascript/)
+    - I used **Bootstrap JavaScript** to workaround writing JavaScript. This was used for the mobile navigation bar and for the Accordion dropdown on the About Page. 
+
+- [Popper](https://popper.js.org/) 
+    - The mobile navigation bar also uses Popper
+
+- Ajax
+    - This was also used for the mobile navigation bar
+
+- [Google Fonts](https://fonts.google.com/)
+    - Trocchi and Open Sans were added to the project using **Google Fonts**
+
+- [Font Awesome](https://fontawesome.com/)
+    - I added icons from **Font Awesome** to the site header, mobile navigation icon, and footer.        
 
 ## Testing
 
@@ -184,12 +222,59 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
+1. The code for the FAQ Accordion on the About Page is almost entirely from this [Bootstrap JavaScript Plugin](https://getbootstrap.com/docs/4.0/components/collapse/)
+
+2. Much of the code and functionality for the mobile navigation came from [this W3 Schools article](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp#:~:text=To%20create%20a%20collapsible%20navigation,the%20button%3A%20%22thetarget%22)
+
+3. I used padding frequently to position elements on the site. I used [this article](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) as a reference for adding CSS padding correctly 
+
+4. The buttons on the site were styled using Bootstrap CSS from [this article](https://getbootstrap.com/docs/4.0/components/buttons/#outline-buttons)
+
+5. I found the Bootstrap grid system to be somewhat confusing, so used [this article for reference](https://uxplanet.org/how-the-bootstrap-4-grid-works-a1b04703a3b7)
+
+6. This [W3 Schools article](https://www.w3schools.com/howto/howto_css_hero_image.asp) was used to add the background images
+
+7. I fixed an error with usng alt to describe a background image following the suggestions [here on StackOverflow](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute)
+
+8. The hover CSS on the Homepage gallery images were added from this suggestion: filter: brightness(0.2); from [this StackOverflow question](https://stackoverflow.com/questions/21086385/how-to-make-in-css-an-overlay-over-an-image)
+
+9. My mentor suggested that I use flex-direction to stack content on my Contact Page, so that content on the right stacks over content on the left on mobile. [Here's the source](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction)
+
+10. I built my user stories from the suggestions in [this Atlassian article](https://www.atlassian.com/agile/project-management/user-stories)
+
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+- The text for the 'Galway' poem came from [this site](http://marydevenportoneill.org/poems/)
+- The author bio for Mary Devenport O'Neill came from another page on the same site [here](http://marydevenportoneill.org/biography/)
+- I also reference [this Wikipedia article](https://en.wikipedia.org/wiki/Mary_Devenport_O%27Neill) for O'Neill's bio
+
+- The text from 'She Weeps Over Rahoon' comes from [here](https://www.poemhunter.com/poem/she-weeps-over-rahoon/)
+- Much of the James Joyce bio comes from [here](https://www.poemhunter.com/james-joyce/biography/)
+
+- The text for 'Men with Tired Hair' comes from the [Salmon Press site](https://www.salmonpoetry.com/details.php?ID=367&a=121)
+- I've found Rita Anne Higgin's bio [here](https://www.salmonpoetry.com/details.php?ID=206&a=121)
 
 ### Media
-- The photos used in this site were obtained from ...
+
+- eyre-square.jpg is from the Wikipedia article on [The Tribes of Galway](https://en.wikipedia.org/wiki/Tribes_of_Galway#/media/File:The_Tribes_of_Galway,_Eyre_Square.jpg). It was taken by [Eoin Gardiner](https://www.flickr.com/photos/18091975@N00)
+- galway-banner.jpg comes from [Can Stock Photo](https://www.canstockphoto.ie/galway-city-skyline-vector-silhouette-14830924.html). This comes from a licesne purchased for the image from the image creator [yurkaimmortal](https://www.canstockphoto.ie/yurkaimmortal/)
+- galway-banner2.jpg comes from [here on Unsplash](https://unsplash.com/photos/UR-9hOEW-Ww?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink). [Rory Hennessey](https://unsplash.com/@roryhennessey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) is the image owner
+- galway-hookers.jpg is from [this Pixabay page](https://pixabay.com/photos/galway-hookers-2676502/). Credit goes to [coolpropix](https://pixabay.com/users/coolpropix-5902319/)
+- galway-poem.jpg  is from [Pixabay here](https://pixabay.com/users/coolpropix-5902319/). And was taken by [romavor](https://pixabay.com/users/romavor-2347721/)
+- galway-weir.jpg also comes from [Pixabay here](https://pixabay.com/photos/house-architecture-waters-building-3175921/). [xcoffeeelenax](https://pixabay.com/users/xcoffeeelenax-8117453/) is the image owner
+- jame-joyce.jpg is from this [Irish Times article](https://www.irishtimes.com/culture/books/james-joyce-caught-up-in-a-scandal-1.1631893). This was sourced by Terence Killeen, a Joyce scholar who writes for the times. [Here's his Irish Times bio](https://www.irishtimes.com/topics/topics-7.1213540?article=true&tag_person=Terence+Killeen)
+- mary-devenport-o-neill.jpg was found on this [blog post](https://sheelanagigcomedienne.wordpress.com/2016/07/28/mary-devenport-oneill-poem-galway/) by Jean Rathbone
+- mileston-project-logo-2.png was designed and edited by my husband James Greaney on Free Logo Design or [FLD](https://www.freelogodesign.org/)
+- mug-1.jpg comes from [Unsplash here](https://unsplash.com/photos/Uz3oLFx7aYQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) and was created by [Marianne Krohn](https://unsplash.com/@marianne_krohn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- notebook.jpg is also from [Unsplash here](https://unsplash.com/photos/11-15cYOiQc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink). Credt goes to [Bookblock](https://unsplash.com/@bookblock)
+
+- rahoon.JPG and she-weeps.JPG were taken by me in the old cemetary Rahoon on 16 June 2020
+- rita-ann-higgins.jpg was sourced from [this Times article](https://www.thetimes.co.uk/article/poet-rita-ann-higgins-ballybrit-used-to-be-rural-now-its-built-up-dnnw72r8v) and is credited to Andrew Downes
+- tshirt-1.JPG comes from [Burst](https://burst.shopify.com/photos/green-t-shirt?c=t-shirts) and was created by Shopify partners
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I got the original idea for this project from the Galway poetry trail. The trail is charted out on the website for Kenny's bookshop [here](https://www.kennys.ie/galway-poetry-trail/1505-60galway-poetry-trail)
+- The aesthetics: the colour palette and fonts were inspited by https://poets.org/
+- Another site that inspired my design was https://poetryarchive.org/
+- I also looked at the structure of: https://www.poetryfoundation.org/ and https://www.poetryireland.ie/
