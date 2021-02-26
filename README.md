@@ -54,7 +54,7 @@ I've included links to this brainstorm.
 
 I've included links to the sitemap and a wireframe for each page of the site. 
 
-[Sitemap](/workspace/milestone-project-1/wireframes/Wireframes-Sitemap.pdf)
+[Sitemap](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:62c7ce88-3e14-4acf-9839-b8a82601d74f)
 
 [Homepage](/workspace/milestone-project-1/wireframes/Wireframes-Homepage.pdf)
 
