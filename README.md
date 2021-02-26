@@ -50,25 +50,25 @@ Sarah is interested in reading as a hobby and likes to keep track of different l
 Before I started on the wireframes, I brainstormed the logo design, business objectives, and customer needs on Miro. 
 I've included links to this brainstorm.
 
-[Miro branstorming](/workspace/milestone-project-1/wireframes/Milestone-1-Brainstorming.pdf)
+[Miro branstorming](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:d03db3c1-b0c1-4121-b9ad-8a75eb66ee05)
 
 I've included links to the sitemap and a wireframe for each page of the site. 
 
 [Sitemap](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:62c7ce88-3e14-4acf-9839-b8a82601d74f)
 
-[Homepage](/workspace/milestone-project-1/wireframes/Wireframes-Homepage.pdf)
+[Homepage](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:5a35e8e8-d20e-49c3-b0bd-ccaf66f49222)
 
-[Poetry Page](/workspace/milestone-project-1/wireframes/Wireframes-Poetry.pdf)
+[Poetry Page](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:3e2d0912-179b-4373-a675-2b0cc06635cc)
 
-[About](/workspace/milestone-project-1/wireframes/Wireframes-About.pdf)
+[About](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:e5a6395c-c0cb-4bb5-a419-2581b9689aa2)
 
-[Contact](/workspace/milestone-project-1/wireframes/Wireframes-Contact.pdf)
+[Contact](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:0f85f6a4-1d3d-43a5-8503-ad5c789d8254)
 
-[Shop](/workspace/milestone-project-1/wireframes/Wireframes-Shop.pdf)
+[Shop](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:2cb6a7a0-af41-4308-8c90-95c1526ab92e)
 
 ## Design/Color-palette/Fonts
 
-The first colour I choose for the design of this site is marroon. This is the city colour for Galway. This is relected in the logo, icons throughout the site, and in the background colour for the quote banners on the Home and Poetry Pages. 
+The first colour I choose for the design of this site is maroon. This is the city colour for Galway. This is relected in the logo, icons throughout the site, and in the background colour for the quote banners on the Home and Poetry Pages. 
 
 
 The rest of the colour scheme includes shades of blue. There's dark blue on the Home, Contact, and Shop Page to make the images/forms stand out. 
@@ -92,15 +92,15 @@ I created a gallery of images of iconic places in Galway. These images correspon
 
 I wanted to evoke dinnseanchas or lore of places in this project to show the connection between where a poem is set and the written word. Plus I think this navigation makes a more visually stunning homepage and works to explain the project.
 
-For example, the image for the poem Galway is of the canal, looking over Il Vicolo restaurant. [This image.](/workspace/milestone-project-1/assets/images/galway-weir.jpg)
+For example, the image for the poem Galway is of the canal, looking over Il Vicolo restaurant. 
 
-The image of the old Rahoon cemetery was taken by me. Though less iconic on a city-wide basis, this is an important place in James Joyce’s personal lore that’s featured in his more famous short story: “The Dead”. [This image.](/workspace/milestone-project-1/assets/images/rahoon.JPG)
+The image of the old Rahoon cemetery was taken by me. Though less iconic on a city-wide basis, this is an important place in James Joyce’s personal lore that’s featured in his more famous short story: “The Dead”. 
 
-‘On Nimmo’s Pier’ features the well-known red-sailed Galway hookers docked in the pier. I used this image because these boats are docked in the pier during the summer. So the boats are strongly connected to this area of the city. [This image.](/workspace/milestone-project-1/assets/images/galway-hookers.jpg)
+‘On Nimmo’s Pier’ features the well-known red-sailed Galway hookers docked in the pier. I used this image because these boats are docked in the pier during the summer. So the boats are strongly connected to this area of the city. 
 
 For ‘Men with Tired Hair’ I couldn’t get a good image of Prospect Hill, since it is largely a commercial area of the city. I considered taking a picture of my doctor’s office that’s located in this area of the town. 
 However, any picture I tried to take of the hill looked awkward and a bit less vibrant than some of areas of the city with more colourful shopfronts and pubs. So I used an image of Eyre Square and it’s flags of the 12 tribes. 
-Eyre Square is located at the bottom of the hill, so sitting out on Prospect Hill, one would look out over this square. [This image.](/workspace/milestone-project-1/assets/images/eyre-square.jpg)
+Eyre Square is located at the bottom of the hill, so sitting out on Prospect Hill, one would look out over this square. 
 
 Finally, I added an overlay that appears when you hover over the images, so that a user knows to click on the image to go directly to the Poems page. 
 
