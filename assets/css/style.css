@@ -299,9 +299,12 @@ h3.bio-title {
 }
 
 /*----Contact Page */
-h3.form-font {
-  text-transform: none;
+.form-font {
   font-size: 16px;
+  font-family: Open sans, sans-serif;
+  font-weight: 600;
+  text-transform: none;
+  color: #8DB2B9;
 }
 
 .contact-form {
