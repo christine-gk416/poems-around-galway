@@ -24,25 +24,25 @@
 
         <!--Header-->
         <div class="container-fluid"> 
-            <div class="row no-gutter">
+            <div class="row no-gutter header-height">
                 <!--Logo-->
-                <div class="col-6 col-md-6 logo mobile-logo-pos mobile-logo">
+                <div class="col-6 logo">
                     <a href="/index.html">
-                        <img src="/assets/images/milestone project logo 2.png" alt="Poems Around Galway logo">
+                        <img src="/assets/images/milestone project logo 2.png" alt="Poems Around Galway logo" class="mobile-logo-pos">
                     </a> 
                     <h1>Poems Around Galway</h1> 
                 </div>
 
-                
-  
-                <div class="col-md-8 col-lg-6 col-xl-6 mobile-nav">   
-                    <nav class="navbar navbar-expand-lg nav-position">
- 
+                <!--Navigation-->
+                <div class="col-6">   
+                    <nav class="navbar navbar-expand-lg nav-position mobile-links">
+                        <!--Mobile Nav-->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-label="Opens mobile navigation">
                             <span class="navbar-toggler-icon"></span>
 
                             <i class="fas fa-bars icon"></i>
                         </button>
+                        <!--Mobile Nav-->
                         <div class="collapse navbar-collapse" id="collapsibleNavbar">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
@@ -79,24 +79,23 @@
             </div>    
         </div>
 
-        
     </header>
-
+    <!--Header banner image-->
     <section>
         <div class="home-banner mobile-banner" alt="Image of the Claddagh in Galway city">
             
         </div>
     </section>
-    
+    <!--About page section-->
     <section>
 
         <div class="row poetry-background">
 
             <div class="col-12 about-size">
                 <h3 class="poetry-title">About this Project</h3>
-                <h4>
+                <p>
                     Poems Around Galway is an educational project to bring poetry written about Galway city to anyone. We've selected some of the most iconic poems about this city for readers to read, listen, and enjoy. This is a way for locals to find their favourite poems or learn about writing they haven't seen before. It's a great resource for educators! This site is also for visitors to the city to get to know this poetic city and check out local bookshops.
-                </h4>
+                </p>
             </div>
 
             <div class="col-12 faq-size">
@@ -104,11 +103,11 @@
                 <div id="accordion">
                     <div class="card">
                             <div class="card-header faq-btn" id="headingOne">
-                                <h5 class="mb-0">
+                                <h4 class="mb-0">
                                     <button class="btn btn-link faq-font" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     Why are there so many poems about Galway city?
                                     </button>
-                                </h5>
+                                </h4>
                             </div>
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
@@ -125,11 +124,11 @@
 
                 <div class="card">
                     <div class="card-header faq-btn" id="headingTwo">
-                        <h5 class="mb-0">
+                        <h4 class="mb-0">
                             <button class="btn btn-link collapsed faq-font" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             test
                             </button>
-                        </h5>
+                        </h4>
                     </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
@@ -140,11 +139,11 @@
 
                 <div class="card">
                     <div class="card-header faq-btn" id="headingThree">
-                        <h5 class="mb-0">
+                        <h4 class="mb-0">
                             <button class="btn btn-link collapsed faq-font" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Collapsible Group Item #3
                             </button>
-                        </h5>
+                        </h4>
                     </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                             <div class="card-body">
@@ -156,36 +155,35 @@
 
         </div>
 
-        
-
     </section>
         
         
     <!--Footer--> 
 
-    <footer class="footer-background footer-padding push" id="footer-details">
+    <footer class="footer-background footer-padding push">
 
         <div class="container-fluid">
-
+            <!--Newsletter-->
             <div class="row no-gutter"> 
             
                 <div class="col-xl-4 col-md-6 newsletter-tablet-pos">
-                    <h5 class="subscribe-newsletter newsletter-mobile">
+                    <h4 class="subscribe-newsletter newsletter-mobile">
                         <i class="far fa-newspaper newsletter-icon"></i>
-                        Subscribe to our Newsletter!</h5>
-                    <form class="subscribe-newsletter footer-form-mobile" action="" aria-label="Sign up for our Newsletter">
+                        Subscribe to our Newsletter!
+                    </h4>
+                    <form class="subscribe-newsletter footer-form-mobile" action="#" aria-label="Sign up for our Newsletter">
                         <input type="email" id="email" name="email" class="form-border" placeholder="example@email.com" aria-label="Add your email address" required>
                         <input type="submit" value="Submit" class="newsletter-button btn btn-outline-light" aria-label="Submit newsletter sign up">
                     </form>
             
                 </div>
-
+                <!--Bookshop links-->
                 <div class="col-xl-4 col-md-6 links-tablet-pos">
                
-                    <h5 class="buy-poetry">
+                    <h4 class="buy-poetry">
                         <i class="fas fa-book-reader"></i>
                         Buy Poetry Online:
-                    </h5>
+                    </h4>
 
                     <ul class="bookshop-links">
                         
@@ -207,7 +205,7 @@
                         </li>
                     </ul>   
                 </div>
-
+                <!--Social links-->
                 <div class="col-xl-4 col-md-12 social-background social-footer-mobile">
                     <ul>
                         
@@ -244,6 +242,6 @@
                 </div>
             </div> 
         </div>   
-    </footer>   
+    </footer>     
 </body>
 </html>

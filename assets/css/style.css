@@ -65,8 +65,10 @@ body {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #E5E8F0;
+  font-family: Open sans, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 h1 {
@@ -89,13 +91,6 @@ h3 {
 }
 
 h4 {
-  font-family: Open sans, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-h5 {
   font-family: Arial, sans-serif;
   color: #252D41;
 }
@@ -115,7 +110,7 @@ h5 {
 }
 
 .nav-position ul {
-  padding: 45px 50px;
+  padding: 40px 50px;
   margin: 0px;
 }
 
@@ -141,7 +136,7 @@ ul {
 }
 
 li .nav-button {
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 li {
@@ -166,14 +161,13 @@ a {
 
 footer {
   height: 175px;
-  ;
-    margin: 0px;
+  margin: 0px;
   position: relative;
   padding-bottom: 0px;
 }
 
 .footer-padding {
-  padding-top: 3%;
+    padding-top: 3%;
 }
 
 .social-background {
@@ -276,7 +270,7 @@ footer {
 /*----Poem Page */
 
 .galway-po {
-  padding: 2% 0% 5% 15%;
+  padding: 0% 0% 8% 40%;
 }
 
 h3.poetry-title {
@@ -291,12 +285,7 @@ h3.bio-title {
 }
 
 .image-position-po {
-  padding: 30% 10% 15% 2%;
-  width: 100%;
-}
-
-.image-position-po2 {
-  padding: 10% 10% 15% 2%;
+  padding: 5% 10% 5% 10%;
   width: 100%;
 }
 
@@ -323,25 +312,26 @@ h3.form-font {
   padding: 8% 10% 0% 10%;
 }
 
-.email-label {
-  padding-left: 6%;
-}
-
-.input-padding {
-  padding-right: 19%;
-}
-
 .label-display {
     display: block;
+}
+
+.label-width {
+    width: 432px;
+}
+
+p.contact-font {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E8F0;
 }
 
 /*-----Shop Page */
 
 .shop-image {
-  max-height: 75%;
-  max-width: 75%;
-  padding-top: 15%;
-  padding-left: 25%;
+    max-height: 500px;
+    max-width: 550px;
+    padding-top: 75px;
+    padding-left: 50px;
 }
 
 .shop-text {
@@ -357,12 +347,28 @@ h3.form-font {
 
 @media screen and (max-width: 1024px) {
 
+    header {
+        height: 155px;
+    }
+
+    .nav-position ul {
+        padding-top: 25px;
+    }
+
   .mobile-bottom-padding {
     padding-bottom: 0%;
   }
 
   .quote-position {
     padding-left: 5%;
+  }
+
+  .mobile-gallery {
+      position: inherit;
+  }
+
+  .footer-padding {
+      padding-top: 2%;
   }
 
   .newsletter-button {
@@ -390,7 +396,9 @@ h3.form-font {
 
   .social-footer-mobile {
     padding-left: 35%;
+    padding-top: 0%;
   }
+
 }
 
 @media screen and (max-width: 1023px) {
@@ -401,20 +409,15 @@ h3.form-font {
   .nav-position {
     padding: 17% 0% 0% 40%;
     margin: 0%;
-    background-color: #8DB2B9;
   }
 
   .nav-position ul {
-    padding: 0%;
+    background-color: #8DB2B9;
   }
 
   .mobile-logo-pos {
     height: 75px;
     padding: 2% 0% 5% 5%;
-  }
-
-  .mobile-nav-btn {
-    padding-right: 20%;
   }
 
   footer {
@@ -446,6 +449,7 @@ h3.form-font {
 
   .social-footer-mobile {
     padding-left: 30%;
+    padding-top: 3%;
   }
 
   .newsletter-tablet-pos {
@@ -517,6 +521,11 @@ h3.form-font {
 }
 
 @media screen and (max-width: 736px) {
+
+    header {
+        height: 145px;
+    }
+
   .galway-po {
     padding-left: 25%;
     padding-bottom: 0%;
@@ -536,32 +545,30 @@ h3.form-font {
     padding-left: 5%;
   }
 
-  #footer-details {
-    height: 150%;
-    padding: 5%;
+  footer {
+      height: 285px;
   }
 }
 
 @media screen and (max-width: 414px) {
+
+    header {
+    height: 130px;
+    }
+
   .mobile-logo-pos {
     padding-right: 5%;
     float: right;
     height: 50px;
   }
 
-  .mobile-nav {
-    padding-top: 15%;
-    padding-right: 12%;
-    background-color: #8DB2B9;
+  .nav-position {
+    padding: 33% 0% 0% 0%;
   }
 
-  .nav-position ul {
-    padding-right: 5%;
-    margin: 0px;
-  }
-
-  .mobile-nav-btn {
-    padding-right: 35%;
+  .mobile-links ul {
+      padding: 20% 12% 15% 12%;
+      background-color: #8DB2B9;
   }
 
   .footer-padding {
@@ -595,8 +602,8 @@ h3.form-font {
   }
 
   .social-footer-mobile {
-    padding-left: 2%;
-    padding-top: 4%;
+    padding-left: 10%;
+    padding-top: 2%;
   }
 
   a {
@@ -612,15 +619,15 @@ h3.form-font {
     text-align: center;
   }
 
+  p {
+    font-size: 16px;
+  }
+
   h4 {
     font-size: 16px;
   }
 
-  h5 {
-    font-size: 16px;
-  }
-
-  p {
+  p.contact-font {
     font-size: 15px;
   }
 
@@ -633,7 +640,7 @@ h3.form-font {
   }
 
   .subscribe-newsletter {
-    padding-left: 5%;
+    padding-left: 10%;
   }
 
   .mobile-email {
