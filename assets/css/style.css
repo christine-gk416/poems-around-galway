@@ -17,6 +17,10 @@ a:hover {
   color: #800000;
 }
 
+a.nav-button:hover {
+    color: #800000;
+}
+
 .buy-poetry i {
   color: #800000;
 }
@@ -126,6 +130,7 @@ h4 {
   font-size: 20px;
   text-align: center;
   padding: 2px 30px;
+  color: black;
   background-color: #E5E8F0;
   border-radius: 25px;
 }
@@ -678,6 +683,10 @@ p.contact-font {
     padding-bottom: 15%;
   }
 
+  .label-width {
+    width: 268px;
+  }
+
   textarea {
     box-sizing: border-box;
     width: 100%;
@@ -686,4 +695,12 @@ p.contact-font {
   .mobile-label {
     padding-top: 6%;
   }
+
+  .shop-image {
+    max-height: 500px;
+    max-width: 300px;
+    padding-top: 8%;    
+    padding-left: 10%;
+  }
+
 }
