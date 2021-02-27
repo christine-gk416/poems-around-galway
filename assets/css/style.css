@@ -465,7 +465,7 @@ p.contact-font {
   }
 
   .mobile-banner {
-    background-image: url(assets/images/galway-banner2.jpg);
+    background-image: url(../images/galway-banner2.jpg);
     background-position: center center;
     background-size: cover;
     height: 300px;
