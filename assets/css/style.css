@@ -533,6 +533,12 @@ p.contact-font {
         height: 145px;
     }
 
+    .mobile-logo-pos {
+    padding-right: 5%;
+    float: right;
+    height: 50px;
+  }
+
   .galway-po {
     padding-left: 25%;
     padding-bottom: 0%;
