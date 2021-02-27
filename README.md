@@ -260,14 +260,15 @@ In addition, if it is not obvious, you should also describe how to run your code
 - galway-banner.jpg comes from [Can Stock Photo](https://www.canstockphoto.ie/galway-city-skyline-vector-silhouette-14830924.html). This comes from a licesne purchased for the image from the image creator [yurkaimmortal](https://www.canstockphoto.ie/yurkaimmortal/)
 - galway-banner2.jpg comes from [here on Unsplash](https://unsplash.com/photos/UR-9hOEW-Ww?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink). [Rory Hennessey](https://unsplash.com/@roryhennessey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) is the image owner
 - galway-hookers.jpg is from [this Pixabay page](https://pixabay.com/photos/galway-hookers-2676502/). Credit goes to [coolpropix](https://pixabay.com/users/coolpropix-5902319/)
-- galway-poem.jpg  is from [Pixabay here](https://pixabay.com/users/coolpropix-5902319/). And was taken by [romavor](https://pixabay.com/users/romavor-2347721/)
+- galway-poem.jpg  is from [Unsplash](https://unsplash.com/photos/gsLM7kBkDvw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink). And was taken by [Ruby Doan](https://unsplash.com/@mymytudoan)
 - galway-weir.jpg also comes from [Pixabay here](https://pixabay.com/photos/house-architecture-waters-building-3175921/). [xcoffeeelenax](https://pixabay.com/users/xcoffeeelenax-8117453/) is the image owner
 - jame-joyce.jpg is from this [Irish Times article](https://www.irishtimes.com/culture/books/james-joyce-caught-up-in-a-scandal-1.1631893). This was sourced by Terence Killeen, a Joyce scholar who writes for the times. [Here's his Irish Times bio](https://www.irishtimes.com/topics/topics-7.1213540?article=true&tag_person=Terence+Killeen)
 - mary-devenport-o-neill.jpg was found on this [blog post](https://sheelanagigcomedienne.wordpress.com/2016/07/28/mary-devenport-oneill-poem-galway/) by Jean Rathbone
 - mileston-project-logo-2.png was designed and edited by my husband James Greaney on Free Logo Design or [FLD](https://www.freelogodesign.org/)
 - mug-1.jpg comes from [Unsplash here](https://unsplash.com/photos/Uz3oLFx7aYQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) and was created by [Marianne Krohn](https://unsplash.com/@marianne_krohn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- night-galway.jpg is an [Unsplash image](https://unsplash.com/photos/s12s4dZSwLk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) by [Markus Voetter](https://unsplash.com/@markusvoetter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 - notebook.jpg is also from [Unsplash here](https://unsplash.com/photos/11-15cYOiQc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink). Credt goes to [Bookblock](https://unsplash.com/@bookblock)
-
+- old-men.jpg is an [Unsplash photo](https://unsplash.com/photos/wlY66otjq28?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) taken by [Morgan Lane](https://unsplash.com/@themorganlane)
 - rahoon.JPG and she-weeps.JPG were taken by me in the old cemetary Rahoon on 16 June 2020
 - rita-ann-higgins.jpg was sourced from [this Times article](https://www.thetimes.co.uk/article/poet-rita-ann-higgins-ballybrit-used-to-be-rural-now-its-built-up-dnnw72r8v) and is credited to Andrew Downes
 - tshirt-1.JPG comes from [Burst](https://burst.shopify.com/photos/green-t-shirt?c=t-shirts) and was created by Shopify partners
