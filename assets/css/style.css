@@ -103,6 +103,11 @@ h4 {
   padding-left: 30%;
 }
 
+a.text-link {
+    color: #800000;
+    padding: 0px;
+}
+
 /*----Header */
 
 .row {
@@ -300,6 +305,10 @@ h3.bio-title {
 
 .bio {
   padding-right: 10%;
+}
+
+#poem-bottom-padding {
+    padding-bottom: 50px;
 }
 
 /*----Contact Page */

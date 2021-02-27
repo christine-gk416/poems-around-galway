@@ -186,7 +186,10 @@ About Page:
     - Trocchi and Open Sans were added to the project using **Google Fonts**
 
 - [Font Awesome](https://fontawesome.com/)
-    - I added icons from **Font Awesome** to the site header, mobile navigation icon, and footer.        
+    - I added icons from **Font Awesome** to the site header, mobile navigation icon, and footer. 
+
+- [Audacity](https://www.audacityteam.org/)
+    - I used this tool to record audio versions of the poems on my Blue Yeti and saved the recordings to MP3 files           
 
 ## Testing
 
@@ -210,15 +213,26 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+To deploy this project, I used GitHub Pages. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+To do this I:
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. Logged into my GitHub account
+2. Opened my repository for poems-around-galway
+3. Went to the Settings tab of my repository
+4. In the Options tab of the Settings, went to the GitHub Pages section
+5. Selected Master as the Source from a dropdown
+6. Selected the /(root) folder
+7. Click Save 
+8. Opened the site in an private browser at this link: https://christine-gk416.github.io/poems-around-galway/
 
+I followed [this guide](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to deploy the site
+
+Difference between deployed version and the GitHub preview:
+- Internal links were updated to remove the url slug so they would work on the live site. For example /index.html became index.html
+- Updated some images to use the relative path to the image 
+
+The live site can now be accessed at this link: https://christine-gk416.github.io/poems-around-galway/
 
 ## Credits
 
@@ -251,11 +265,14 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text from 'She Weeps Over Rahoon' comes from [here](https://www.poemhunter.com/poem/she-weeps-over-rahoon/)
 - Much of the James Joyce bio comes from [here](https://www.poemhunter.com/james-joyce/biography/)
 
+- The sources for Ben Murphy's poem and author bio come from his volume *On Nimo's Pier* published by Claddagh Press in 2018 
+
 - The text for 'Men with Tired Hair' comes from the [Salmon Press site](https://www.salmonpoetry.com/details.php?ID=367&a=121)
-- I've found Rita Anne Higgin's bio [here](https://www.salmonpoetry.com/details.php?ID=206&a=121)
+- I've found Rita Ann Higgin's bio [here](https://www.poetryfoundation.org/poets/rita-ann-higgins)
 
 ### Media
 
+- ben-murphy.JPG was taken by me from the front cover of his poetry volume *On Nimmo's Pier*
 - eyre-square.jpg is from the Wikipedia article on [The Tribes of Galway](https://en.wikipedia.org/wiki/Tribes_of_Galway#/media/File:The_Tribes_of_Galway,_Eyre_Square.jpg). It was taken by [Eoin Gardiner](https://www.flickr.com/photos/18091975@N00)
 - galway-banner.jpg comes from [Can Stock Photo](https://www.canstockphoto.ie/galway-city-skyline-vector-silhouette-14830924.html). This comes from a licesne purchased for the image from the image creator [yurkaimmortal](https://www.canstockphoto.ie/yurkaimmortal/)
 - galway-banner2.jpg comes from [here on Unsplash](https://unsplash.com/photos/UR-9hOEW-Ww?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink). [Rory Hennessey](https://unsplash.com/@roryhennessey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) is the image owner
@@ -272,6 +289,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 - rahoon.JPG and she-weeps.JPG were taken by me in the old cemetary Rahoon on 16 June 2020
 - rita-ann-higgins.jpg was sourced from [this Times article](https://www.thetimes.co.uk/article/poet-rita-ann-higgins-ballybrit-used-to-be-rural-now-its-built-up-dnnw72r8v) and is credited to Andrew Downes
 - tshirt-1.JPG comes from [Burst](https://burst.shopify.com/photos/green-t-shirt?c=t-shirts) and was created by Shopify partners
+
+### Audio 
+
+- All audio recordings used in this project were recorded by James Greaney and Christine Greaney-Kelley
 
 ### Acknowledgements
 
