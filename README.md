@@ -72,7 +72,7 @@ The first colour I choose for the design of this site is maroon. This is the cit
 
 
 The rest of the colour scheme includes shades of blue. There's dark blue on the Home, Contact, and Shop Page to make the images/forms stand out. 
-There's lighter block in the background of the Poetry and About Pages, so that the written content is easier to read against dark text. 
+There's lighter blue in the background of the Poetry and About Pages, so that the written content is easier to read against dark text. 
 I used a cooler/neutral blue in the header/footer of the site. 
 
 The main reasoning behind this blue theme is because it contrasts well with the red. Also, Galway is built on rivers, canals, and Galway Bay. The blue evokes a city surrounded by water. 
@@ -84,6 +84,7 @@ My mentor suggested that I build my design palette on https://coolors.co/
 The fonts I choose were chosen because they're easy to read. I mainly used Arial and Open Sans to make the site more accessible to users with dyslexia as suggested [in this article](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide)
 
 I also chose to use Trocchi in some headings because I was inspired by its use on https://poets.org/ 
+
 ## Existing Features
 
 #### Feature- User story 2: 
@@ -103,7 +104,6 @@ However, any picture I tried to take of the hill looked awkward and a bit less v
 Eyre Square is located at the bottom of the hill, so sitting out on Prospect Hill, one would look out over this square. 
 
 Finally, I added an overlay that appears when you hover over the images, so that a user knows to click on the image to go directly to the Poems page. 
-
 
 #### Feature- User story 3: 
 

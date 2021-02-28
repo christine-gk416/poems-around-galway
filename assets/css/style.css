@@ -69,7 +69,7 @@ body {
 }
 
 p {
-  font-family: Open sans, sans-serif;
+  font-family: "Open sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -88,7 +88,7 @@ h2 {
 }
 
 h3 {
-  font-family: Open sans, sans-serif;
+  font-family: "Open sans", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   color: #8DB2B9;
@@ -105,8 +105,16 @@ h4 {
 
 a.text-link {
     color: #800000;
-    padding: 0px;
+    padding: 0px; 
 }
+
+.p-text-link {
+    font-family: "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 
 /*----Header */
 
@@ -314,7 +322,7 @@ h3.bio-title {
 /*----Contact Page */
 .form-font {
   font-size: 16px;
-  font-family: Open sans, sans-serif;
+  font-family: "Open sans", sans-serif;
   font-weight: 600;
   text-transform: none;
   color: #8DB2B9;
