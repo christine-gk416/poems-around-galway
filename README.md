@@ -66,9 +66,9 @@ I've included links to the sitemap and a wireframe for each page of the site.
 
 [Shop](https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:2cb6a7a0-af41-4308-8c90-95c1526ab92e)
 
-## Design/Color-palette/Fonts
+## Design/Colour-palette/Fonts
 
-The first colour I choose for the design of this site is maroon. This is the city colour for Galway. This is relected in the logo, icons throughout the site, and in the background colour for the quote banners on the Home and Poetry Pages. 
+The first colour I choose for the design of this site is maroon. This is the city colour for Galway. This is reflected in the logo, icons throughout the site, and in the background colour for the quote banners on the Home and Poetry Pages. 
 
 
 The rest of the colour scheme includes shades of blue. There's dark blue on the Home, Contact, and Shop Page to make the images/forms stand out. 
@@ -86,6 +86,11 @@ The fonts I choose were chosen because they're easy to read. I mainly used Arial
 I also chose to use Trocchi in some headings because I was inspired by its use on https://poets.org/ 
 
 ## Existing Features
+
+#### Feature- User story 1: 
+
+This feature is actually the bulk of the Poetry Page of the site. This was created with Bootstrap, Custom CSS, free stock images, and research about the poems/authors. 
+All content used on this page is cited below. 
 
 #### Feature- User story 2: 
 
@@ -164,6 +169,13 @@ About Page:
 - [Free Logo Design](https://www.freelogodesign.org/)   
     - My logo was created on this tool
 
+- [GitPod](https://gitpod.io/)
+    - I built the site on **GitPod**
+
+- [GitHub](github.com/)
+    - I stored and managed by code on **GitHub**
+    - The site is deployed on **GitHub Pages**        
+    
 - [HTML5](https://html.com/html5/)
     - This project uses **HTML5** to build the 5 pages on the site
 
@@ -189,80 +201,160 @@ About Page:
     - I added icons from **Font Awesome** to the site header, mobile navigation icon, and footer. 
 
 - [Audacity](https://www.audacityteam.org/)
-    - I used this tool to record audio versions of the poems on my Blue Yeti and saved the recordings to MP3 files           
+    - I used this tool to record audio versions of the poems on my Blue Yeti and saved the recordings to MP3 files 
+
+- [GIMP](https://www.gimp.org/)
+    - I edited images on this tool              
 
 ## Testing
 
 1. Logo 
 
-The logo was added to the Homepage before anything else. It was originally added to the centre of the site, but this didn’t work well when I placed the navigation on the left. 
+    The logo was added to the Homepage before anything else. It was originally added to the centre of the site, but this didn’t work well when I placed the navigation on the left. 
 
-I also didn’t understand the Bootstrap grid fully at first, and used only col-6 so this caused the logo to stack above the navigation and added extra space to the navigation. In this case I decided to move the logo to the right of the page.
+    I also didn’t understand the Bootstrap grid fully at first, and used only col-6 so this caused the logo to stack above the navigation and added extra space to the navigation. In this case I decided to move the logo to the right of the page.
 
-My mentor pointed out that the original design of the logo, which had the logo text below the image, made the height of the header quite large and distracting from the rest of the content on the site. 
+    My mentor pointed out that the original design of the logo, which had the logo text below the image, made the height of the header quite large and distracting from the rest of the content on the site. 
 
-I edited the logo in an image editor so that the text was to the left of the image, then was able to decrease the header height. 
+    I edited the logo in an image editor so that the text was to the left of the image, then was able to decrease the header height. 
 
-**Tablet and Mobile:** 
+    **Tablet and Mobile:** 
 
-I used a media queries to adjust the size of the logo to be smaller on tablet and mobile view. 
+    I used a media queries to adjust the size of the logo to be smaller on tablet and mobile view. 
 
 2. Navigation
 
-To create the navigation, I followed the suggestions in the Code Institute test projects. I built the navigation with an <ul> and used CSS to float the list items to the left, then hid the bullet points, and add spacing between the links. 
+    To create the navigation, I followed the suggestions in the Code Institute test projects. I built the navigation with an `<ul>`  and used CSS to float the list items to the left, then hid the bullet points, and add spacing between the links. 
 
-I decided to add a button link to the header to bring attention to the Shop Page. To do this, I originally used a <button> with a combination of Bootstrap styles and my own CSS. I placed an <a> element inside the button. This worked, but caused an Error when I ran my code through the W3C validator. To fix this, I used the Bootstrap CSS/my own classes to style the <a> element as a button and removed the <button> element. 
+    I decided to add a button link to the header to bring attention to the Shop Page. To do this, I originally used a `<button> `  with a combination of Bootstrap styles and my own CSS. I placed an ` <a>`  element inside the button. This worked, but caused an Error when I ran my code through the W3C validator. To fix this, I used the Bootstrap CSS/my own classes to style the ` <a>`  element as a button and removed the ` <button>`  element. 
 
-**Tablet and Mobile:** 
+    **Tablet and Mobile:** 
 
-The mobile version of the site has a hamburger icon to hide/reveal the navigation links when clicked on. 
+    The mobile version of the site has a hamburger icon to hide/reveal the navigation links when clicked on. 
 
-This was built with a Font Awesome icon and code from W3 Schools that uses Bootstrap JS, Popper, and Ajax. 
+    This was built with a Font Awesome icon and code from W3 Schools that uses Bootstrap JS, Popper, and Ajax. 
 
-I originally used another set of W3 Schools code with JavaScript, but removed the code because JavaScript is outside the scope of this project. This code was on the site for some time so that I could test out how the mobile icon would look. 
+    I originally used another set of W3 Schools code with JavaScript, but removed the code because JavaScript is outside the scope of this project. This code was on the site for some time so that I could test out how the mobile icon would look. 
 
-With the working mobile navigation, I tried to stack the hamburger icon below the logo, so that the whole section slid down. My mentor pointed out that this made the mobile header too large, so adjusted the navigation to be back beside the logo with Bootstrap.
+    With the working mobile navigation, I tried to stack the hamburger icon below the logo, so that the whole section slid down. My mentor pointed out that this made the mobile header too large, so adjusted the navigation to be back beside the logo with Bootstrap.
 
 3. Banner
 
-For the banner image, I tried to add an image directly to the HTML, then use CSS to stretch it across the screen. This stretched out the image itself. 
+    For the banner image, I tried to add an image directly to the HTML, then use CSS to stretch it across the screen. This stretched out the image itself. 
 
-I then used Background image CSS to add the image in as a background image and size it on the screen. 
+    I then used Background image CSS to add the image in as a background image and size it on the screen. 
 
-**Tablet and Mobile**
+    **Tablet and Mobile**
 
-For desktop view, I used a large image that didn’t scale well on mobile and cropped the image awkwardly. I added media queries so that a different image appears on smaller screens.
+    For desktop view, I used a large image that didn’t scale well on mobile and cropped the image awkwardly. I added media queries so that a different image appears on smaller screens.
 
 4. Newsletter- User Story 5
 
-To create the Newsletter, I create a <form> with an Email input and Submit button. I considered using a MailChimp form so that it would fully work, but thought this was too much outside code to add to the project. 
+    To create the Newsletter, I created a `<form>` with an Email input and Submit button. I considered using a MailChimp form so that it would fully work, but thought this was too much outside code to add to the project. 
 
-For this reason, the form can be clicked on when filled out, but doesn’t send to a storage option or show a post-submit message. I’ve left the form action set to # so that the form resets when submitted. My mentor pointed out that this is fine, since we’re not required to use JavaScript on the first Milestone Project. 
+    For this reason, the form can be clicked on when filled out, but doesn’t send to a storage option or show a post-submit message. I’ve left the form action set to # so that the form resets when submitted. My mentor pointed out that this is fine, since we’re not required to use JavaScript on the first Milestone Project. 
 
-To stand out from the Contact Page form, I styled this form to only show the bottom border of the Email input. This gives it a minimalist style. I styled the Submit button with Bootstrap and used the same button code on the Contact Page form, for consistency.
+    To stand out from the Contact Page form, I styled this form to only show the bottom border of the Email input. This gives it a minimalist style. I styled the Submit button with Bootstrap and used the same button code on the Contact Page form, for consistency.
 
-**Tablet and Mobile**
+    **Tablet and Mobile**
 
-The submit button stacked below the Email input in mobile. To fix this, I removed the label for the Email input and added a form placeholder.
+    The submit button stacked below the Email input in mobile. To fix this, I removed the label for the Email input and added a form placeholder.
 
 5. Bookshop links- User Story 4
 
-These links were built the same way as the main navigation with an <ul>. The links go to external sites run by Irish booksellers. All links work when clicked on and open in a separate window with target=”_blank”.
+    These links were built the same way as the main navigation with an ` <ul>` . The links go to external sites run by Irish booksellers. All links work when clicked on and open in a separate window with target=”_blank”.
 
-**Tablet and Mobile:** 
+    **Tablet and Mobile:** 
 
-These links stack to the right of the screen on tablet and in the links stack in the centre of the footer elements—one on top of the other—on mobile. 
+    These links stack to the right of the screen on tablet and in the links stack in the centre of the footer elements—one on top of the other—on mobile. 
 
 
 6. Social Links
 
-The social links were created using the same method as the Bookshop Links. I used Font Awesome icons instead of text. 
+    The social links were created using the same method as the Bookshop Links. I used Font Awesome icons instead of text. 
 
-For accessibility, I added aria-labels to the icons, but the labels returned Warnings on the W3C HTML validator. I used this Font Awesome [guide’s instructions]( https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility) to remove the warning.
+    For accessibility, I added aria-labels to the icons, but the labels returned Warnings on the W3C HTML validator. I used this Font Awesome [guide’s instructions]( https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility) to remove the warning.
 
-**Tablet and Mobile:**
+    **Tablet and Mobile:**
 
-These links are styled to stack below the other footer elements on smaller screens. On tablet view, white padding appeared to the bottom sides of the footer. To fix this, I used a media query to increase the footer height on tablet screens.
+    These links are styled to stack below the other footer elements on smaller screens. On tablet view, white padding appeared to the bottom sides of the footer. To fix this, I used a media query to increase the footer height on tablet screens.
+
+7. Poetry Gallery- User Story 2
+
+    The gallery on the homepage was created using Bootstrap and free stock images that I found online. I created the spacing of the gallery using CSS padding. 
+
+    The main issue I had with the gallery was how each image reacts when hovered over/clicked on. I tried a few different tools, including Bootstrap to style this hover effect. 
+
+    In the end, I found a simple CSS fix with filter: brightness(0.2); and this hover feature now works as expected. 
+
+    Next, I built anchor links from the Poetry Page, by creating unique IDs above the corresponding page section on the Poetry Page. 
+
+    If you go to the Home Page, hover over the gallery image, and click on the image, you will go to the correct poetry section on the Poetry Page. 
+
+    **Tablet and Mobile:** 
+
+    I used additional Bootstrap CSS and my own CSS padding to position the images on tablet and mobile view. The images stack one on top of the other on mobile view. 
+
+
+8. Layout of Poetry Page- User Story 1
+
+    The original layout of the page had the poem/accompanying image side by side stacked on top of the author image/author bio, also spaced side by side. 
+
+    This created extra spaces on the page that made it look somewhat bulky. To fix this, I stacked the poetry image on top of the poem. This creates a sleeker look on the page, and brings more attention to the poetry text (which is now centred on the page). 
+
+    I left the author image/bio structure spaced side by side. To help the poem stand out as the main content on the page, I made the bio header smaller than the poem header. 
+
+    **Tablet and Mobile:**
+
+    I added CSS to adjust the font sizes on mobile, so that the poems are still readable, but maintain the integrity of the line breaks (which is important in poetry). 
+
+9. Audio Blocks- User Story 3 
+
+    I used an ` <audio> ` element to add audio recordings to the Poetry Page. There are 4 individual .mp3 audio files used on this page. Each file is saved in an audio folder, nested in the assets folder of the project. 
+    I had a test file in place on the site while building out the Poetry Page. This test .mp3 showed an error on the W3C HTML validator because the file formatting was like this: audio file.mp3. When I added my own audio files from Audacity, I ensured no spaces were in the file name. These files passed the validator. 
+
+10. Accordion
+
+    I mostly used Bootstrap JavaScript, credited below, to build the FAQ tool. I added this plugin because I think FAQ dropdowns are a sleek way of displaying information without taking up too much space. 
+
+    The accordion is custom styled with my own CSS. 
+
+11. Contact Form
+
+    The contact form was built with text inputs, an email input and a textarea input. I added labels to designate between the different input types and aria-labels for accessibility. 
+
+    The form fields originally had different lengths. For consistency, I styled the form fields to be the same length on desktop, mobile, and tablet view. 
+
+    I don’t have experience with JavaScript, so the I left the action blank and didn’t add a post submit message. All fields are required and the form returns an error if submitted with any field not filled in. 
+
+11. Shop Page
+
+    The Shop Page is built with similar Bootstrap and custom CSS as the homepage gallery. The Purchase buttons on the page refresh the page when clicked on. This is because I don’t yet have the skills to build a working shop, but wanted to show what I could build. 
+
+    Originally, I considered creating a stand in Redbubble or Etsy shop, but this proved to not be cost effective. 
+
+### Browsers
+
+The site looks the same on Chrome, Firefox, and Safari. When I deployed the site, there was some spacing on Chrome that wasn't on the other browsers,
+but I used CSS to fix the spacing issue. 
+
+One notable difference between browser is that the audio element is grey on Firefox and Safari, but white on Chrome. 
+
+The form placeholder font was too light to read on Safari. I used [this CSS](https://css-tricks.com/almanac/selectors/p/placeholder/) to adjust the placeholder font colour. 
+
+While working on this project, I prefered to code on Chrome, but to use Firefox's developer tools. Chrome DevTools gave inconsistent results when testing on mobile view.
+I found Firefox to give accurate results for mobile styling. I worked between the two browsers. 
+
+I tested the mobile site on Safari and Chrome on my iPhone SE 2. The main change I made on the live site was to adjust a spacing issue with the logo that didn't appear in the preivew on GitHub. 
+
+### Lighthouse
+
+All pages on the site score above 90% for Accessibility. This is because I added aria-labels to all the forms, buttons, and many site links. I also added alt text to all images. 
+
+All pages on the site score above 90% for Performance and Best Practices. 
+
+The mobile pages scored lower on Lighthouse because of image sizing issues that weren't happening on desktop. However, the images load correctly on mobile view. I decided to not edit the images
+on mobile because I don't quite understand the sizing issues listed in Lighthouse. 
 
 
 ## Deployment
@@ -304,7 +396,7 @@ The live site can now be accessed at this link: https://christine-gk416.github.i
 
 6. This [W3 Schools article](https://www.w3schools.com/howto/howto_css_hero_image.asp) was used to add the background images
 
-7. I fixed an error with usng alt to describe a background image following the suggestions [here on StackOverflow](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute)
+7. I fixed an error with using alt to describe a background image following the suggestions [here on StackOverflow](https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute)
 
 8. The hover CSS on the Homepage gallery images were added from this suggestion: filter: brightness(0.2); from [this StackOverflow question](https://stackoverflow.com/questions/21086385/how-to-make-in-css-an-overlay-over-an-image)
 
@@ -353,6 +445,6 @@ The live site can now be accessed at this link: https://christine-gk416.github.i
 ### Acknowledgements
 
 - I got the original idea for this project from the Galway poetry trail. The trail is charted out on the website for Kenny's bookshop [here](https://www.kennys.ie/galway-poetry-trail/1505-60galway-poetry-trail)
-- The aesthetics: the colour palette and fonts were inspited by https://poets.org/
+- The aesthetics: the colour palette and fonts were inspired by https://poets.org/
 - Another site that inspired my design was https://poetryarchive.org/
 - I also looked at the structure of: https://www.poetryfoundation.org/ and https://www.poetryireland.ie/

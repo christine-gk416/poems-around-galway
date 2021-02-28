@@ -61,6 +61,10 @@ li a i:hover {
     color: #8DB2B9;
 }
 
+::-webkit-input-placeholder {
+    color: black;
+}
+
 
 /*----General Styles */
 
