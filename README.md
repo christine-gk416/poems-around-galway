@@ -231,6 +231,7 @@ I followed [this guide](https://docs.github.com/en/github/working-with-github-pa
 Difference between deployed version and the GitHub preview:
 - Internal links were updated to remove the url slug so they would work on the live site. For example /index.html became index.html
 - Updated some images to use the relative path to the image 
+- Chrome had a white space on the far right side of the Homepage. I used [this CSS](https://www.weblimitless.com/stop-website-showing-white-space-right-side/) to fix it
 
 The live site can now be accessed at this link: https://christine-gk416.github.io/poems-around-galway/
 

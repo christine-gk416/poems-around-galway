@@ -64,12 +64,14 @@ li a i:hover {
 
 /*----General Styles */
 
+/*---CSS found online*/
 html,body{
     width: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
 }
+/*---CSS found online*/
 
 body {
   margin: 0;
@@ -429,6 +431,10 @@ p.contact-font {
   .social-footer-mobile {
     padding-left: 35%;
     padding-top: 0%;
+  }
+
+  footer {
+      height: 190px;
   }
 
 }
