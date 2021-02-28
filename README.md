@@ -100,7 +100,7 @@ The image of the old Rahoon cemetery was taken by me. Though less iconic on a ci
 ‘On Nimmo’s Pier’ features the well-known red-sailed Galway hookers docked in the pier. I used this image because these boats are docked in the pier during the summer. So the boats are strongly connected to this area of the city. 
 
 For ‘Men with Tired Hair’ I couldn’t get a good image of Prospect Hill, since it is largely a commercial area of the city. I considered taking a picture of my doctor’s office that’s located in this area of the town. 
-However, any picture I tried to take of the hill looked awkward and a bit less vibrant than some of areas of the city with more colourful shopfronts and pubs. So I used an image of Eyre Square and it’s flags of the 12 tribes. 
+However, any picture I tried to take of the hill looked awkward and a bit less vibrant than some of areas of the city with more colourful shopfronts and pubs. So I used an image of Eyre Square and its flags of the 12 tribes. 
 Eyre Square is located at the bottom of the hill, so sitting out on Prospect Hill, one would look out over this square. 
 
 Finally, I added an overlay that appears when you hover over the images, so that a user knows to click on the image to go directly to the Poems page. 
@@ -193,23 +193,77 @@ About Page:
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+1. Logo 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+The logo was added to the Homepage before anything else. It was originally added to the centre of the site, but this didn’t work well when I placed the navigation on the left. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+I also didn’t understand the Bootstrap grid fully at first, and used only col-6 so this caused the logo to stack above the navigation and added extra space to the navigation. In this case I decided to move the logo to the right of the page.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+My mentor pointed out that the original design of the logo, which had the logo text below the image, made the height of the header quite large and distracting from the rest of the content on the site. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I edited the logo in an image editor so that the text was to the left of the image, then was able to decrease the header height. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+**Tablet and Mobile:** 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I used a media queries to adjust the size of the logo to be smaller on tablet and mobile view. 
+
+2. Navigation
+
+To create the navigation, I followed the suggestions in the Code Institute test projects. I built the navigation with an <ul> and used CSS to float the list items to the left, then hid the bullet points, and add spacing between the links. 
+
+I decided to add a button link to the header to bring attention to the Shop Page. To do this, I originally used a <button> with a combination of Bootstrap styles and my own CSS. I placed an <a> element inside the button. This worked, but caused an Error when I ran my code through the W3C validator. To fix this, I used the Bootstrap CSS/my own classes to style the <a> element as a button and removed the <button> element. 
+
+**Tablet and Mobile:** 
+
+The mobile version of the site has a hamburger icon to hide/reveal the navigation links when clicked on. 
+
+This was built with a Font Awesome icon and code from W3 Schools that uses Bootstrap JS, Popper, and Ajax. 
+
+I originally used another set of W3 Schools code with JavaScript, but removed the code because JavaScript is outside the scope of this project. This code was on the site for some time so that I could test out how the mobile icon would look. 
+
+With the working mobile navigation, I tried to stack the hamburger icon below the logo, so that the whole section slid down. My mentor pointed out that this made the mobile header too large, so adjusted the navigation to be back beside the logo with Bootstrap.
+
+3. Banner
+
+For the banner image, I tried to add an image directly to the HTML, then use CSS to stretch it across the screen. This stretched out the image itself. 
+
+I then used Background image CSS to add the image in as a background image and size it on the screen. 
+
+**Tablet and Mobile**
+
+For desktop view, I used a large image that didn’t scale well on mobile and cropped the image awkwardly. I added media queries so that a different image appears on smaller screens.
+
+4. Newsletter- User Story 5
+
+To create the Newsletter, I create a <form> with an Email input and Submit button. I considered using a MailChimp form so that it would fully work, but thought this was too much outside code to add to the project. 
+
+For this reason, the form can be clicked on when filled out, but doesn’t send to a storage option or show a post-submit message. I’ve left the form action set to # so that the form resets when submitted. My mentor pointed out that this is fine, since we’re not required to use JavaScript on the first Milestone Project. 
+
+To stand out from the Contact Page form, I styled this form to only show the bottom border of the Email input. This gives it a minimalist style. I styled the Submit button with Bootstrap and used the same button code on the Contact Page form, for consistency.
+
+**Tablet and Mobile**
+
+The submit button stacked below the Email input in mobile. To fix this, I removed the label for the Email input and added a form placeholder.
+
+5. Bookshop links- User Story 4
+
+These links were built the same way as the main navigation with an <ul>. The links go to external sites run by Irish booksellers. All links work when clicked on and open in a separate window with target=”_blank”.
+
+**Tablet and Mobile:** 
+
+These links stack to the right of the screen on tablet and in the links stack in the centre of the footer elements—one on top of the other—on mobile. 
+
+
+6. Social Links
+
+The social links were created using the same method as the Bookshop Links. I used Font Awesome icons instead of text. 
+
+For accessibility, I added aria-labels to the icons, but the labels returned Warnings on the W3C HTML validator. I used this Font Awesome [guide’s instructions]( https://fontawesome.com/how-to-use/on-the-web/other-topics/accessibility) to remove the warning.
+
+**Tablet and Mobile:**
+
+These links are styled to stack below the other footer elements on smaller screens. On tablet view, white padding appeared to the bottom sides of the footer. To fix this, I used a media query to increase the footer height on tablet screens.
+
 
 ## Deployment
 
@@ -232,6 +286,7 @@ Difference between deployed version and the GitHub preview:
 - Internal links were updated to remove the url slug so they would work on the live site. For example /index.html became index.html
 - Updated some images to use the relative path to the image 
 - Chrome had a white space on the far right side of the Homepage. I used [this CSS](https://www.weblimitless.com/stop-website-showing-white-space-right-side/) to fix it
+- Text links in the footer that went to Facebook and Instagram didn't have https://www. in the file path, so the links had to be edited to work on the live site
 
 The live site can now be accessed at this link: https://christine-gk416.github.io/poems-around-galway/
 
