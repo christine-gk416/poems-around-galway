@@ -366,7 +366,7 @@ To do this I:
 1. Logged into my GitHub account
 2. Opened my repository for poems-around-galway
 3. Went to the Settings tab of my repository
-4. In the Options tab of the Settings, went to the GitHub Pages section
+4. In the Pages tab of the Settings, I opened my GitHub pages options for this repository
 5. Selected Master as the Source from a dropdown
 6. Selected the /(root) folder
 7. Click Save 
