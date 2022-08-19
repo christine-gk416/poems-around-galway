@@ -100,7 +100,7 @@ I wanted to evoke dinnseanchas or lore of places in this project to show the con
 
 For example, the image for the poem Galway is of the canal, looking over Il Vicolo restaurant. 
 
-The image of the old Rahoon cemetery was taken by me. Though less iconic on a city-wide basis, this is an important place in James Joyce’s personal lore that’s featured in his more famous short story: “The Dead”. 
+The image of the old Rahoon cemetery was taken by me. Though less iconic on a city-wide basis, this is an important place in James Joyce’s personal lore that’s featured in his more famous short story: 'The Dead'. 
 
 ‘On Nimmo’s Pier’ features the well-known red-sailed Galway hookers docked in the pier. I used this image because these boats are docked in the pier during the summer. So the boats are strongly connected to this area of the city. 
 
